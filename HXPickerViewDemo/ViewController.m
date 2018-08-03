@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HXPickerView.h"
+#import "TestViewController.h"
 
 @interface ViewController () <HXPickerViewDelegate, HXPickerViewDataSource>
 
@@ -27,11 +28,16 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    self.pickerView.separatorHeight = 2;
-    self.pickerView.separatorColor = [UIColor redColor];
-    self.pickerView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 20);
-    self.pickerView.defaultSelectedRow = 3;
-    self.pickerView.scrollingAnimation = YES;
+//    self.pickerView.separatorHeight = 2;
+//    self.pickerView.separatorColor = [UIColor redColor];
+//    self.pickerView.separatorInset = UIEdgeInsetsMake(0, 20, 0, 20);
+//    self.pickerView.defaultSelectedRow = 3;
+//    self.pickerView.scrollingAnimation = YES;
+    
+    
+    //查看THXMutablePickerView的使用demo
+    TestViewController * test = [[TestViewController alloc] init];
+    [self presentViewController:test animated:YES completion:nil];
 }
 
 - (NSInteger)hx_numberOfComponentsInPickerView:(HXPickerView *)pickerView

@@ -130,9 +130,11 @@ static NSString * const contentOffsetPath = @"contentOffset";
             if (row >= self.hx_numberOfRowsInComponent) { row = self.hx_numberOfRowsInComponent - 1;}
             if (contentOffset.y <= self.startPoint.y) { row = 0;}
             [self hx_pickerView:self didScrollingRow:row inComponent:0];
+            NSLog(@"上");
         } else if (_y < 0) {
             NSInteger row = floor(scrollingRow);
             [self hx_pickerView:self didScrollingRow:row inComponent:0];
+            NSLog(@"下");
         }
     }
     else {

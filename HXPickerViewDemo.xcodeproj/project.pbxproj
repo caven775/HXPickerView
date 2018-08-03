@@ -16,6 +16,8 @@
 		3E7850DC2113489B0016908B /* HXPickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7850DB2113489B0016908B /* HXPickerViewDemoTests.m */; };
 		3E7850E72113489B0016908B /* HXPickerViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7850E62113489B0016908B /* HXPickerViewDemoUITests.m */; };
 		3E7850F7211348C70016908B /* HXPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7850F6211348C70016908B /* HXPickerView.m */; };
+		3F5755E12113F37100047EB0 /* THXMutablePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5755E02113F37000047EB0 /* THXMutablePickerView.m */; };
+		3F5755E4211401A900047EB0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5755E3211401A900047EB0 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		3E7850E82113489B0016908B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E7850F5211348C70016908B /* HXPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXPickerView.h; sourceTree = "<group>"; };
 		3E7850F6211348C70016908B /* HXPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXPickerView.m; sourceTree = "<group>"; };
+		3F5755DF2113F37000047EB0 /* THXMutablePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THXMutablePickerView.h; sourceTree = "<group>"; };
+		3F5755E02113F37000047EB0 /* THXMutablePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THXMutablePickerView.m; sourceTree = "<group>"; };
+		3F5755E2211401A900047EB0 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3F5755E3211401A900047EB0 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 				3E7850C3211348960016908B /* AppDelegate.m */,
 				3E7850C5211348960016908B /* ViewController.h */,
 				3E7850C6211348960016908B /* ViewController.m */,
+				3F5755E2211401A900047EB0 /* TestViewController.h */,
+				3F5755E3211401A900047EB0 /* TestViewController.m */,
 				3E7850C8211348960016908B /* Main.storyboard */,
 				3E7850CB2113489B0016908B /* Assets.xcassets */,
 				3E7850CD2113489B0016908B /* LaunchScreen.storyboard */,
@@ -141,6 +149,8 @@
 			children = (
 				3E7850F5211348C70016908B /* HXPickerView.h */,
 				3E7850F6211348C70016908B /* HXPickerView.m */,
+				3F5755DF2113F37000047EB0 /* THXMutablePickerView.h */,
+				3F5755E02113F37000047EB0 /* THXMutablePickerView.m */,
 			);
 			path = HXPickerView;
 			sourceTree = "<group>";
@@ -275,10 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F5755E4211401A900047EB0 /* TestViewController.m in Sources */,
 				3E7850C7211348960016908B /* ViewController.m in Sources */,
 				3E7850D22113489B0016908B /* main.m in Sources */,
 				3E7850F7211348C70016908B /* HXPickerView.m in Sources */,
 				3E7850C4211348960016908B /* AppDelegate.m in Sources */,
+				3F5755E12113F37100047EB0 /* THXMutablePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
